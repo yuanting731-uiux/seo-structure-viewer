@@ -19,10 +19,15 @@ export function CTA() {
             </p>
 
             <div className="flex items-center justify-center">
-              <button className="group inline-flex items-center gap-2 bg-white text-black hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-medium transition-colors">
+              <a 
+                href="https://chromewebstore.google.com/detail/SEO%20Structure%20Viewer/kiienjpnkdgmdkdicppiagcdjbjlcjdd"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-2 bg-white text-black hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-medium transition-colors"
+              >
                 Start Trial
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
             </div>
           </div>
         </div>
